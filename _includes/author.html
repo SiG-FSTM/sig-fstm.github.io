@@ -3,7 +3,13 @@
 
 <div style="text-align:center; margin: 50px 0">
 	{{ author.name }} |
+	{% if author.github %}
 	<a href="{{ author.github }}">Github</a>
+	{% endif %}
+	{% if author.twitter %}
 	<a href="{{ author.twitter }}">Twitter</a>
+	{% endif %}
+	{% if author.website %}
 	<a href="{{ author.website }}">Website</a>
+	{% endif %}
 </div>
