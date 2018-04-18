@@ -19,9 +19,9 @@ Sound interesting!. We do have a small whatsApp group which we use as communicat
 But wait! there is some term and condition ;). This is to maintain our WhatsApp group quality by having a very informative discussion that only related to technology!.
 
 Here are some of group t&c:
-- Do not post unrelated things other than tech stuff!
-- Be professional when asking question!
-- Be positive with other members!
-- Make sure you been studied in KUIS FSTM! :D
+1. Do not post unrelated things other than tech stuff!
+2. Be professional when asking question!
+3. Be positive with other members!
+4. Make sure you been studied in KUIS FSTM! :D
 
-If all the terms suits you. Please welcome to our unofficial [SiG FSTM group](http://bit.ly/SiG_FSTM)!
+If all the terms suits you. Please welcome to our unofficial [SiG FSTM club](http://bit.ly/SiG_FSTM)!
