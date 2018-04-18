@@ -1,0 +1,13 @@
+<header>
+		<div class="container">
+			<h1>
+				<a href="{{ site.baseurl }}/" style="text-decoration: none; color: inherit">{{ site.title }}</a>
+			</h1>
+			<h2>{{ site.description }}</h2>
+			<div>
+				{% for page in site.pages %} {% if page.title %}
+				<a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				{% endif %} {% endfor %}
+			</div>
+		</div>
+	</header>

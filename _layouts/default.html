@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US " }}">
-
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> {% seo %}
-</head>
-
+{% include head.html %}
 <body>
 
-	<header>
-		<div class="container">
-			<h1>
-				<a href="{{ site.baseurl }}/" style="text-decoration: none; color: inherit">{{ site.title }}</a>
-			</h1>
-			<h2>{{ site.description }}</h2>
-			<div>
-				{% for page in site.pages %} {% if page.title %}
-				<a class="btn" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-				{% endif %} {% endfor %}
-			</div>
-		</div>
-	</header>
-
+	{% include header.html %}
 	<div class="container">
 		<section id="main_content">
 			{{ content }}
 		</section>
 	</div>
+	{% include footer.html %}
 
-	<footer style="text-align: center; margin: 50px">
-		<a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>SiG FSTM</a>
-	</footer>
 </body>
-
 </html>
