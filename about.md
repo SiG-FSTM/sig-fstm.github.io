@@ -11,7 +11,7 @@ This whole website is made by a group of [FSTM](http://fstm.kuis.edu.my/blog/) s
 
 In SiG we gather in a small group of people to share what we have learnt and our interest. Some of us also participated in programming, designing, Capture The Flag (CTF) and Digital Forensics competitions organized by various of university or organization in Malaysia.
 
-Our group consists of lecturers, alumni and students from our faculty from various background in Information Technology (IT). We're all gather in one small place to share and learn about our passion and interest, where we provides training, workshop, seminar, meetup talk about IT things like adobe training, security talk, android workshop and others.
+Our group consists of lecturers, alumni and students from our faculty from various background in Information Technology (IT). We're all gather in one small place to share and learn about our passion and interest, where we provides training, workshop, seminar, meetup talk about computer technology things like Adobe's software training, Information Security talk, Android workshop, Rasberry Pie talk and others.
 
 # Join us
 Sound interesting! We do have a small WhatsApp group which we use as communication and discussion tool. Yes you can join our WhatsApp group and having some techie discussion ;D .
