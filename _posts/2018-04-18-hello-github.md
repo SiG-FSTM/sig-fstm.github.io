@@ -3,7 +3,6 @@ layout: post
 title: Hello Github!
 author: kaitoAckerman
 published: true
-permalink: '/hello-github'
 ---
 
 Hello there!, Hello world!, Hello GitHub!. Assalamualaikum!, today's post is intended to give some quick overview about the popular web platform for code hosting which many know as the Github!.
