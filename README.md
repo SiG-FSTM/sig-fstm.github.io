@@ -15,7 +15,7 @@ There is many ways you can contribute in this simple website project.
 - Designing website frontend
 - Creating issue or submiting pull request for website enhancement
 
-This contribution open for all SiG members!
+This contribution is open for all SiG members. Feel free to write post in malay.
 
 ## License
-Licensed under the [GNU GPLv3](https://github.com/SiG-FSTM/sig-fstm.github.io/blob/master/LICENSE) License.
+Licensed under the [GNU GPLv2](https://github.com/SiG-FSTM/sig-fstm.github.io/blob/master/LICENSE) License.
