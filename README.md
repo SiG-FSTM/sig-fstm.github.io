@@ -18,4 +18,4 @@ There is many ways you can contribute in this simple website project.
 This contribution open for all SiG members!
 
 ## License
-Licensed under the [GNU GPLv3](https://github.com/SiG-FSTM/sig-fstm.github.io/blob/master/LICENSE) License.
+Licensed under the [GNU GPLv2](https://github.com/SiG-FSTM/sig-fstm.github.io/blob/master/LICENSE) License.
