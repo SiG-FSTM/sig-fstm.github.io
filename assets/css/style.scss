@@ -8,11 +8,27 @@
 
 	.member-badge{
 		padding: 5px;
-		background: white;
-		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+		background: black;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
 		border-radius: 3px;
 		display: inline-block;
 		margin: 10px;
-		color: black
+		color: #b5e853;
+
+		.avatar, .info{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.avatar{
+			height: 64px;
+		}
+
+		.info{
+			padding: 0 5px;
+		}
+
+		p{
+			margin: 0 auto;
+		}
 	}
 }
