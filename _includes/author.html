@@ -4,12 +4,12 @@
 <div style="text-align:center; margin: 50px 0">
 	<p>Author: {{ author.name }}</p>
 	{% if author.github %}
-	<a href="{{ author.github }}"><img src="/assets/img/github-logo.png" /></a>
+	<a href="{{ author.github }}" title="Check out author Github!"><img src="/assets/img/github-logo.png" /></a>
 	{% endif %}
 	{% if author.twitter %}
-	<a href="{{ author.twitter }}"><img src="/assets/img/twitter-logo.png" /></a>
+	<a href="{{ author.twitter }}" title="Follow author on Twitter!"><img src="/assets/img/twitter-logo.png" /></a>
 	{% endif %}
 	{% if author.website %}
-	<a href="{{ author.website }}"><img src="/assets/img/grid-world.png" /></a>
+	<a href="{{ author.website }}" title="Check out author website!"><img src="/assets/img/grid-world.png" /></a>
 	{% endif %}
 </div>
