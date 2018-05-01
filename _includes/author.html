@@ -2,14 +2,14 @@
 {% assign author = site.data.authors[page.author] %}
 
 <div style="text-align:center; margin: 50px 0">
-	{{ author.name }} |
+	<p>Author: {{ author.name }}</p>
 	{% if author.github %}
-	<a href="{{ author.github }}">Github</a>
+	<a href="{{ author.github }}"><img src="/assets/img/github-logo.png" /></a>
 	{% endif %}
 	{% if author.twitter %}
-	<a href="{{ author.twitter }}">Twitter</a>
+	<a href="{{ author.twitter }}"><img src="/assets/img/twitter-logo.png" /></a>
 	{% endif %}
 	{% if author.website %}
-	<a href="{{ author.website }}">Website</a>
+	<a href="{{ author.website }}"><img src="/assets/img/grid-world.png" /></a>
 	{% endif %}
 </div>
