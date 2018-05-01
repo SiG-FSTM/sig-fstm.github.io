@@ -1,6 +1,13 @@
---- 
---- 
+---
+---
 @import "{{ site.theme }}";
+
+h2 {
+	a {
+		text-decoration: none;
+		color: #b5e853;
+	}
+}
 
 // Members board section
 #members {
