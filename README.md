@@ -2,6 +2,9 @@ Special Interest Group FSTM club
 ---
 SiG FSTM is a small group of people which consist of lecturer, alumni and student of FSTM KUIS that shared same passion and interest in learning computer technology. Find out more about SiG [here](https://sig-fstm.github.io/about).
 
+## Installing
+Check out our new Wiki page!
+
 ## Contributing
 There is many ways you can contribute in this simple website project.
 
