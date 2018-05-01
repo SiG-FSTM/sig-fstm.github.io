@@ -1,13 +1,14 @@
---- 
-layout: default 
+---
+layout: default
+comments: true
 ---
 
 <div style="text-align:center;margin-bottom:50px">
 	<h1>{{ page.title }}</h1>
 	<p class="view">Written by {{ page.author }} on {{ page.date | date: "%-d %B %Y" }}</p>
 </div>
-	
-	{{content}} 
+
+	{{content}}
 
 {% if page.tag %}
 <small>tags:
@@ -16,3 +17,5 @@ layout: default
 {% endif %}
 
 {% include author.html %}
+
+{% include disqus.html %}
