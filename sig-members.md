@@ -2,8 +2,11 @@
 layout: default
 title: SiG Members
 permalink: /sig-members
+custom_js:
+- jquery.min
+- members-board
 ---
 
-{% for member in site.data.contributors %}
-{{ member.login }}
-{% endfor %}
+<div id="members">
+
+</div>
