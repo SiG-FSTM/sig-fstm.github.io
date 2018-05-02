@@ -5,7 +5,7 @@ Attachment: EvidencePendrive.E01<br>
 
 ---
 
-Assalamualaikum. Hello there. Let's get started. So, they gave us some files which is in E01, z01 and z02 file format. The clue is "he always hide important data in random folders".
+Assalamualaikum. Hello there. Let's get started. So, they gave us some files which is in `E01`, `z01` and `z02` file format. The clue is "he always hide important data in random folders".<br> 
 
 
 
@@ -19,7 +19,7 @@ The question's concept are same like previous forensic competition CyberHeroes t
 
 So, I open the E01 file with `FTK Imager` software which is a computer forensics software made by AccessData, and do a static forensic analysis on that image.
 
-Then, after a while we analyse the image using FTK Imager. We manage to found the flag! It was hiding in the `UserData` folder. The flag is `ctfunikl18{f0r3nsicByMrK@NEXAGATE}`. And we got the extra price for the first team to solve this question.
+Then, after a while we analyse the image using FTK Imager. We manage to found the flag! It was hiding in the `UserData` folder. The flag is `ctfunikl18{f0r3nsicByMrK@NEXAGATE}`. And we got the extra price for the first team to solve this question.<br>
 
 
 ![alt text](https://github.com/fareedfauzi/sig-fstm.github.io/blob/master/assets/img/Screenshot%20(60).png)
