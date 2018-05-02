@@ -9,7 +9,7 @@ Assalamualaikum. Hello there. Let's get started. So, they gave us some files whi
 
 ![sig-fstm_repo](/assets/img/Forensics Nexagate Bounty 2-copy.png)
 
-After downloaded it, the first thing I do is by issuing `file EvidencePendrive.E01` command to the E01 file. And it said, `EvidencePendrive.E01: EWF/Expert Witness/EnCase image file format`. The question's concept are same like previous forensic competition CyberHeroes that we've been participated, where they gave us an E01 file to do the analysis on it.
+After downloaded it, the first thing I do is by issuing a `file EvidencePendrive.E01` command to the E01 file. And it said, `EvidencePendrive.E01: EWF/Expert Witness/EnCase image file format`. The question's concept are same like previous forensic competition CyberHeroes that we've been participated, where they gave us an E01 file to do the analysis on it.
 
 So, I open the E01 file with `FTK Imager` software which is a computer forensics software made by AccessData, and do a static forensic analysis on that image.
 
