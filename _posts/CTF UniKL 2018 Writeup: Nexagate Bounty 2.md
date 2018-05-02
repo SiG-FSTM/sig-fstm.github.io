@@ -17,7 +17,7 @@ So, I open the E01 file with `FTK Imager` software which is a computer forensics
 
 Then, after a while we analyse the image using FTK Imager. We manage to found the flag! It was hiding in the `UserData` folder. The flag is `ctfunikl18{f0r3nsicByMrK@NEXAGATE}`. And we got the extra price for the first team to solve this question.
 
-![sig-fstm_repo](/assets/img/Screenshot (60).png)
+![sig-fstm_repo](/assets/img/Screenshot (60).png )
 
 The question is easy actually when you know what software to use to do the forensic things on the image.
 
