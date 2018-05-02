@@ -1,13 +1,11 @@
-Category : Forensic
-Title : Nexagate Bounty 2
-Points : 500
-Attachment: EvidencePendrive.E01
+Category : Forensic<br>
+Title : Nexagate Bounty 2<br>
+Points : 500<br>
+Attachment: EvidencePendrive.E01<br>
 
 ---
 
-Assalamualaikum. Hello there. So here my write up for Nexagate Bounty 2.
-
-Let's get started. So, they gave us some files which is in E01, z01 and z02 file format. The clue is "he always hide important data in random folders".
+Assalamualaikum. Hello there. Let's get started. So, they gave us some files which is in E01, z01 and z02 file format. The clue is "he always hide important data in random folders".
 
 ![sig-fstm_repo](/assets/img/Forensics Nexagate Bounty 2-copy.png)
 
