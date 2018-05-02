@@ -19,7 +19,9 @@ The question's concept are same like previous forensic competition CyberHeroes t
 
 So, I open the E01 file with `FTK Imager` software which is a computer forensics software made by AccessData, and do a static forensic analysis on that image.
 
-Then, after a while analysing the image. We were manage to found the flag that was hiding in the `UserData` folder (refer image). The flag is wrote in an image under that folder. The flag is `ctfunikl18{f0r3nsicByMrK@NEXAGATE}`. We submit it and we got the extra price for the first team to solve this question.
+Then, after a while analysing the image. We were manage to found the flag that was hiding in the `UserData` folder (refer image).
+
+The flag is `ctfunikl18{f0r3nsicByMrK@NEXAGATE}`. We submit it and we got the extra price for the first team to solve this question.
 
 
 ![alt text](https://github.com/fareedfauzi/sig-fstm.github.io/blob/master/assets/img/Screenshot%20(60).png)
