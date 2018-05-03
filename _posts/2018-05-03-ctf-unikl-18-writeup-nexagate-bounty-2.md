@@ -1,3 +1,12 @@
+---
+layout: post
+title: 'CTF UniKL 2018 Writeup: Nexagate Bounty 2'
+author: fareedfauzi
+published: true
+date:   2018-05-03
+categories: ctf-writeup
+---
+
 Category : Forensic<br>
 Title : Nexagate Bounty 2<br>
 Points : 500<br>
