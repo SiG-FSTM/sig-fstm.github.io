@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'CTF UniKL 2018 Writeup: Nexagate Bounty 2'
-author: fareedfauzi
+author: Fareedfauzi
 published: true
 date:   2018-05-03
 categories: ctf-writeup
