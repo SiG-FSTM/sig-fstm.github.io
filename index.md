@@ -6,7 +6,7 @@ layout: default
 
 {% for post in site.posts %}
 <h2>
-{{ post.title }}
+<a href="{{ post.url }}">{{ post.title }}</a>
 </h2>
 <small>Written by {{ post.author }} on {{ post.date | date_to_string }}</small>
 <p>{{ post.excerpt }}</p>

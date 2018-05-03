@@ -1,0 +1,41 @@
+---
+---
+@import "{{ site.theme }}";
+
+h2 {
+	a {
+		text-decoration: none;
+		color: #b5e853;
+	}
+}
+
+// Members board section
+#members {
+	width: 100%;
+
+	.member-badge{
+		padding: 5px;
+		background: black;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+		border-radius: 3px;
+		display: inline-block;
+		margin: 10px;
+		color: #b5e853;
+
+		.avatar, .info{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.avatar{
+			height: 64px;
+		}
+
+		.info{
+			padding: 0 5px;
+		}
+
+		p{
+			margin: 0 auto;
+		}
+	}
+}
