@@ -4,6 +4,13 @@ permalink: /posts/:title/
 theme: jekyll-theme-hacker
 excerpt_separator: <!--more-->
 
+plugins:
+  - jekyll-paginate
+
+#post pagination
+paginate_path: "/page:num/"
+paginate: 5
+
 # Disqus Comments :)
 disqus:
   shortname: sig-fstm
