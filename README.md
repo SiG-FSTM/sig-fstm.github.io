@@ -2,6 +2,8 @@ Special Interest Group FSTM club
 ---
 SiG FSTM is a small group of people which consist of lecturer, alumni and student of FSTM KUIS that shared same passion and interest in learning computer technology. Find out more about SiG [here](https://sig-fstm.github.io/about).
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9acfa1dec06041e499d8ace72bde4267)](https://www.codacy.com/app/kaitoAckerman/sig-fstm.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SiG-FSTM/sig-fstm.github.io&amp;utm_campaign=Badge_Grade)
+
 ## Installing
 Check out our new [Wiki](https://github.com/SiG-FSTM/sig-fstm.github.io/wiki) page!
 
