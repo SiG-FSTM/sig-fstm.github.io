@@ -7,6 +7,7 @@ published: true
 
 Hello there!, Hello world!, Hello GitHub!. Assalamualaikum!, today's post is intended to give some quick overview of the popular web platform for code hosting which many know as the Github!.
 
+<!--more-->
 ## Github.com
 [Github](https://github.com) is the internet platform where most programmer hosts their code public or privately with the core features of version control and collaboration. A group of people can work on the same project regardless anywhere they are!
 

@@ -2,6 +2,7 @@ title: SiG FSTM
 description: We are SiG FSTM a small community from KUIS. This website will be the place where we share all of our activities!
 permalink: /posts/:title/
 theme: jekyll-theme-hacker
+excerpt_separator: <!--more-->
 
 # Disqus Comments :)
 disqus:

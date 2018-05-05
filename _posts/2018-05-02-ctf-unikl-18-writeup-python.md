@@ -12,7 +12,7 @@ Title     : python_dis.dis2<br>
 Points    : 200<br>
 Attachment: encrypt_decode.py<br>
 
----
+<!--more-->
 
 The question didn't say anything but giving us a python 2.7 byte-compiled file. This can be identified by issuing the `file` command. As the file says, it's a compiled binary so you cannot see the sources directly.
 
