@@ -11,7 +11,7 @@ Title : Is it the same?<br>
 Points : 100<br>
 Attachment: tw3_uni.exe.jpg.pdf.png.apk<br>
 
----
+<!-- more -->
 
 Hello there! In this challenge, we are given a unique type of file 'tw3_uni.exe.jpg.pdf.png.apk', that seemingly contains no hidden information on first sight.
 
