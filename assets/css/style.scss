@@ -1,7 +1,6 @@
 ---
 /* Note: Keep mobile first design in mind. */
 ---
-
 /* Table of content
 ------------------------
 - Base style
@@ -15,21 +14,34 @@
 
 /* Base style ----------------------------------------- */
 
+.container {
+	margin: 0 auto;
+	max-width: 48rem;
+	width: 90%;
+}
+
+footer {
+	text-align: center;
+}
+
 /* Typography ----------------------------------------- */
 
 /* Links ----------------------------------------- */
-.author{
+
+.author {
 	text-align: center;
 	margin: 10% 0;
-	.icon{
+	.icon {
 		width: 24px;
+		display: initial;
 	}
 }
 
 /* Buttons ----------------------------------------- */
 
 /* Code ----------------------------------------- */
-pre{
+
+pre {
 	overflow: auto;
 	padding: 10px;
 	border-radius: 3px;
@@ -37,7 +49,8 @@ pre{
 }
 
 /* Images ----------------------------------------- */
-img{
+
+img {
 	width: 70%;
 	margin: 0 auto;
 	display: block;
@@ -46,13 +59,17 @@ img{
 /* Media Queries ----------------------------------------- */
 
 /* Larger than mobile */
+
 @media (min-width: 400px) {}
 
 /* Larger than tablet */
+
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
+
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
+
 @media (min-width: 1200px) {}
