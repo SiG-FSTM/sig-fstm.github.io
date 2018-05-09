@@ -3,6 +3,7 @@
 ---
 /* Table of content
 ------------------------
+- Variables
 - Base style
 - Typography
 - Links
@@ -11,6 +12,13 @@
 - Images
 - Media Queries
 */
+
+/* Variables ----------------------------------------- */
+
+$color1: #616161;
+$color2: #9E9E9E;
+$color3: #F5F5F5;
+$color4: #212121;
 
 /* Base style ----------------------------------------- */
 
@@ -27,6 +35,16 @@ footer {
 /* Typography ----------------------------------------- */
 
 /* Links ----------------------------------------- */
+
+.site-title, .site-post, .nav-menu{
+	background: $color4;
+	color: $color3;
+	padding: 5px 10px;
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 
 .author {
 	text-align: center;
@@ -45,7 +63,7 @@ pre {
 	overflow: auto;
 	padding: 10px;
 	border-radius: 3px;
-	background: #eaeaea
+	background: $color3
 }
 
 /* Images ----------------------------------------- */
