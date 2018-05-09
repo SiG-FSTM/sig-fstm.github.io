@@ -1,19 +1,23 @@
 ---
+/* Note: Keep mobile first design in mind. */
 ---
 
-img{
-	width: 100%;
-}
+/* Table of content
+------------------------
+- Base style
+- Typography
+- Links
+- Buttons
+- Code
+- Images
+- Media Queries
+*/
 
-// Code highlight
-pre{
-	overflow: auto;
-	padding: 10px;
-	border-radius: 3px;
-	background: #eaeaea
-}
+/* Base style ----------------------------------------- */
 
-// author section
+/* Typography ----------------------------------------- */
+
+/* Links ----------------------------------------- */
 .author{
 	text-align: center;
 	margin: 10% 0;
@@ -21,3 +25,34 @@ pre{
 		width: 24px;
 	}
 }
+
+/* Buttons ----------------------------------------- */
+
+/* Code ----------------------------------------- */
+pre{
+	overflow: auto;
+	padding: 10px;
+	border-radius: 3px;
+	background: #eaeaea
+}
+
+/* Images ----------------------------------------- */
+img{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Media Queries ----------------------------------------- */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
