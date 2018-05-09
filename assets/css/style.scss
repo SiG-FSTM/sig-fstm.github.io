@@ -1,2 +1,23 @@
 ---
 ---
+
+img{
+	width: 100%;
+}
+
+// Code highlight
+pre{
+	overflow: auto;
+	padding: 10px;
+	border-radius: 3px;
+	background: #eaeaea
+}
+
+// author section
+.author{
+	text-align: center;
+	margin: 10% 0;
+	.icon{
+		width: 24px;
+	}
+}
