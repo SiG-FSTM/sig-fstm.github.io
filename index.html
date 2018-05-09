@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1 style="text-align:center">All posts</h1>
+<h1>All posts</h1>
 
 {% for post in paginator.posts %}
 <h2>
@@ -15,12 +15,12 @@ layout: default
 {% endfor %}
 
 <!-- Pagination links -->
-<div class="pagination">
+<div>
 	{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="previous"><<</a>
+		<a href="{{ paginator.previous_page_path }}"><<</a>
 	{% endif %} 
-	<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+	<span>{{ paginator.page }} of {{ paginator.total_pages }}</span>
 	{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" class="next">>></a>
+		<a href="{{ paginator.next_page_path }}">>></a>
 	{% endif %}
 </div>
