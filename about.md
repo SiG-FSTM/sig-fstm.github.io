@@ -7,7 +7,7 @@ permalink: /about/
 Welcome to our website! The SiG FSTM. Thanks for stopping by. Here are some info about our existence :D.
 
 # Who are we ?
-This whole website is made by a group of [FSTM](http://fstm.kuis.edu.my/blog/) students from [KUIS](http://www.kuis.edu.my) which we called SiG FSTM group unofficially :D. In SiG we gather in a small group of people to share what we have learnt and our interest.
+This whole website is made by a group of [FSTM](http://fstm.kuis.edu.my/blog/) students from [KUIS](http://www.kuis.edu.my) which we called SiG FSTM group unofficially :D. In SiG we gather in a small group of people to share our interest and what we have learnt.
 
 Some of us also participated in programming, designing, Capture The Flag (CTF) and Digital Forensics competitions organized by various of university or organization in Malaysia.
 
