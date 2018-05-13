@@ -20,3 +20,4 @@ OWASP.my |  discuss about Open Web Application Security and anything related to 
 Python Malaysia | Very long description | <https://t.me/pythonmalaysia>
 Ionic Framework Malaysia | Very long description | <https://t.me/ionicmalaysia>, <http://www.facebook.com/groups/ionicmalaysia>
 Blockchain Malaysia | perkembangan Blockchain dan Cryptocurrency di Malaysia  | <https://t.me/blockchainmalaysia>, <https://fb.com/groups/blockchainmalaysia>
+Techsamana | Sembang teknologi semasa di Malaysia dan seluruh Dunia | <https://t.me/techsamana>, <https://t.me/komunitiTechsamana>
