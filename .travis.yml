@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.3.3
 
-script: bundle exec jekyll build && bundle exec htmlproofer ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer ./_site --disable-external 
 
 # branch whitelist, only for GitHub Pages
 branches:
