@@ -1,47 +1,101 @@
 ---
+/* Note: Keep mobile first design in mind. */
 ---
-@import "{{ site.theme }}";
+/* Table of content
+------------------------
+- Variables
+- Base style
+- Typography
+- Links
+- Buttons
+- Code
+- Images
+- Media Queries
+*/
 
-h2 {
-	a {
-		text-decoration: none;
-		color: #b5e853;
-	}
+/* Variables ----------------------------------------- */
+
+$color1: #616161;
+$color2: #9E9E9E;
+$color3: #F5F5F5;
+$color4: #212121;
+
+/* Base style ----------------------------------------- */
+
+.container {
+	margin: 0 auto;
+	max-width: 48rem;
+	width: 90%;
 }
 
-// Pagination
+footer {
+	text-align: center;
+}
+
+/* Typography ----------------------------------------- */
+
+/* Links ----------------------------------------- */
+
+.site-title, .site-post, .nav-menu{
+	background: $color4;
+	color: $color3;
+	padding: 5px 10px;
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 
 .pagination{
 	text-align: center;
 }
 
-// Members board section
-#members {
-	width: 100%;
-
-	.member-badge{
-		padding: 5px;
-		background: black;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
-		border-radius: 3px;
-		display: inline-block;
-		margin: 10px;
-		color: #b5e853;
-
-		.avatar, .info{
-			display: inline-block;
-			vertical-align: middle;
-		}
-		.avatar{
-			height: 64px;
-		}
-
-		.info{
-			padding: 0 5px;
-		}
-
-		p{
-			margin: 0 auto;
-		}
+.author {
+	text-align: center;
+	margin: 10% 0;
+	.icon {
+		width: 24px;
+		display: initial;
 	}
 }
+
+/* Buttons ----------------------------------------- */
+
+/* Code ----------------------------------------- */
+
+pre {
+	overflow: auto;
+	padding: 10px;
+	border-radius: 3px;
+	background: $color3
+}
+
+/* Images ----------------------------------------- */
+
+img {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Media Queries ----------------------------------------- */
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+	img{
+		width: 80%;
+	}
+}
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {}
