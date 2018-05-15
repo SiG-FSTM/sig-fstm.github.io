@@ -7,7 +7,7 @@
 			<div>
 				{% for page in site.pages %} 
 					{% if page.title %}
-						<a class="nav-menu" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						<a class="btn nav-menu" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 					{% endif %} 
 				{% endfor %}
 			</div>
