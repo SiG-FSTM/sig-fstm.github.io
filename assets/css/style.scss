@@ -31,10 +31,22 @@ body{
 	line-height: 1.5;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  
 }
+
+aside, footer, header, main, nav, section {
+	display: block;
+}
+
 .container {
+	width: 100%;
+  	padding-right: 15px;
+  	padding-left: 15px;
 	margin: 0 auto;
-	width: 90%;
 	max-width: 60rem;
+}
+
+.blog-header {
+	line-height: 1;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 footer {
@@ -42,7 +54,92 @@ footer {
 	margin: 15px 0 15px 0;
 }
 
+.py-3 {
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, 
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8 {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+}
+
+.col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.col-2 {
+	-ms-flex: 0 0 16.666667%;
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
+}
+
+.col-4 {
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
+
+.col-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.col-12 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.pt-1{
+  padding-top: 0.25rem !important;
+}
+
+.p-3 {
+	padding: 1rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.justify-content-between {
+	-ms-flex-pack: justify !important;
+	justify-content: space-between !important;
+}
+
+.justify-content-end {
+	-ms-flex-pack: end !important;
+	justify-content: flex-end !important;
+}
+
+.align-items-center {
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
 /* Typography ----------------------------------------- */
+
+.text-center {
+	text-align: center !important;
+}
 
 /* Links ----------------------------------------- */
 
