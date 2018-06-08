@@ -1,15 +1,16 @@
-<header>
-		<div>
+<header class="blog-header py-3">
+	<div class="row justify-content-between align-items-center">
+		<div class="col-6 pt-1">
+			{% for page in site.pages %} 
+				{% if page.title %}
+					<a class="btn nav-menu" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				{% endif %} 
+			{% endfor %}
+		</div>
+		<div class="col-4 text-center">
 			<h1>
 				<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 			</h1>
-			<h2>{{ site.description }}</h2>
-			<div>
-				{% for page in site.pages %} 
-					{% if page.title %}
-						<a class="btn nav-menu" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-					{% endif %} 
-				{% endfor %}
-			</div>
 		</div>
-	</header>
+	</div>
+</header>
