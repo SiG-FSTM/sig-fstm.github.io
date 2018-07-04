@@ -6,10 +6,10 @@ layout: default
 
 {% for post in paginator.posts %}
 <h2>
-<a href="{{ post.url }}">{{ post.title }}</a>
+	<a href="{{ post.url }}">{{ post.title }}</a>
 </h2>
 <small>Written by {{ post.author }} on {{ post.date | date_to_string }}</small>
-<p>{{ post.excerpt }}</p>
+<p>{{ post.description }}</p>
 <a href="{{ post.url }}">Read More</a>
 <hr>
 {% endfor %}
