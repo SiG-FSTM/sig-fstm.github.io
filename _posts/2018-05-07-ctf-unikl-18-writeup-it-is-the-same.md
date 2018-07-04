@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CTF UniKL 2018 Writeup: Is it the same?"
+description: Hello there! In this challenge, we are given a unique type of file 'tw3_uni.exe.jpg.pdf.png.apk', that seemingly contains no hidden information on first sight.
 author: imrankhairuddin
 date:   2018-05-07
 categories: ctf-writeup
@@ -10,8 +11,6 @@ Category : Cryptography<br>
 Title : Is it the same?<br>
 Points : 100<br>
 Attachment: tw3_uni.exe.jpg.pdf.png.apk<br>
-
-<!--more-->
 
 Hello there! In this challenge, we are given a unique type of file 'tw3_uni.exe.jpg.pdf.png.apk', that seemingly contains no hidden information on first sight.
 

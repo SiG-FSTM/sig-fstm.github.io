@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'CTF UniKL 2018 Writeup: python_dis.dis2'
+description: The question didn't say anything but giving us a python 2.7 byte-compiled file. This can be identified by issuing the `file` command. As the file says, it's a compiled binary so you cannot see the sources directly.
 author: IceM4nn
 published: true
 date:   2018-05-02
@@ -11,8 +12,6 @@ Category  : Binary<br>
 Title     : python_dis.dis2<br>
 Points    : 200<br>
 Attachment: encrypt_decode.py<br>
-
-<!--more-->
 
 The question didn't say anything but giving us a python 2.7 byte-compiled file. This can be identified by issuing the `file` command. As the file says, it's a compiled binary so you cannot see the sources directly.
 
