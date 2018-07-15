@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'CTF UniKL 2018 Writeup: Nexagate Bounty 2'
+description: Assalamualaikum. Hello there. Let's get started. So, they gave us some files which is in `E01`, `z01` and `z02` file format. The clue is "he always hide important data in random folders".
 author: Fareedfauzi
 published: true
 date:   2018-05-03
@@ -12,7 +13,6 @@ Title : Nexagate Bounty 2<br>
 Points : 500<br>
 Attachment: EvidencePendrive.E01<br>
 
-<!--more-->
 
 Assalamualaikum. Hello there. Let's get started. So, they gave us some files which is in `E01`, `z01` and `z02` file format. The clue is "he always hide important data in random folders".<br>
 

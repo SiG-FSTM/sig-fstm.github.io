@@ -2,11 +2,12 @@
 layout: post
 language : Bahasa Melayu
 title: 'VS Code, Revolusi Pengeditan Kod'
+description: Visual Studio Code atau ringkasnya VS Code adalah editor kod yang dibangunkan syarikat gergasi teknologi, Microsoft, ditulis menggunakan TypeScript, JavaScript, CSS untuk ketiga-tiga pengguna Windows, Linux dan macOS. Mungkin saya patut katakan semula, ianya boleh digunakan di ketiga-tiga platform.
 author: AreRex14
-published: false
 date:   2018-07-06
 categories: general
 ---
+
 ![Gambar VS Code](/assets/img/vscode3-copyrighted-freesoftwarefiles.jpg)
 Kredit gambar: freesoftwarefiles.com
 
@@ -22,9 +23,9 @@ Pada 14 April 2016, Visual Studio Code menamatkan peringkat pratonton awam dan d
 Dalam Penyelidikan Pemaju(Developer Survey) Stack Overflow 2018, Visual Studio Code menduduki alat persekitaran pemaju(developer environment tool) yang paling popular, dengan 34.9% daripada 75,398 responden mendakwa menggunakannya.
 
 ### Boleh dijalankan di mana-mana
+
 Visual Studio Code atau ringkasnya VS Code adalah editor kod yang dibangunkan syarikat gergasi teknologi, Microsoft, ditulis menggunakan TypeScript, JavaScript, CSS untuk ketiga-tiga pengguna Windows, Linux dan macOS. Mungkin saya patut katakan semula, ianya boleh digunakan di ketiga-tiga platform. 
 
-<!--more-->
 
 ### Sumber terbuka dan percuma
 Apa yang seronoknya dengan editor kod ini? Ia mempunyai pelbagai ciri yang tidak ada atau lebih baik berbanding editor kod lain yang anda mungkin pernah guna. Antaranya kawalan Git terbina(embedded Git control), penunjuk sintaks(syntax highlighting), penyelesaian kod pintar(intelligent code completion), coretan kod(code snippets) dan banyak lagi. Ia juga boleh disesuaikan, jadi pengguna boleh menukar tema editor, pintasan papan kekunci, dan tetapan pilihan. Walaupun muat turun rasmi di bawah lesen proprietari, ia adalah percuma dan sumber terbuka. 
