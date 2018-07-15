@@ -4,7 +4,6 @@ language : Bahasa Melayu
 title: 'Pek Pendidikan Percuma Jetbrains Untuk Pelajar Kolej'
 description: Sebagai pelajar anda sebenarnya bukan sahaja mempunyai masa dan tenaga untuk menimba ilmu malah peluang percuma untuk mendapatkan pelbagai sumber di dalam dan di luar kolej untuk menambah ilmu, kemahiran dan pengalaman anda terutamanya melalui pek pendidikan percuma yang ditawarkan Jetbrains ini. Apa itu **Jetbrains** dan **pek pendidikan percuma** ini?
 author: AreRex14
-published: true
 date:   2018-07-16
 categories: general
 ---
