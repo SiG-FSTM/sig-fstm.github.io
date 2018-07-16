@@ -4,7 +4,7 @@ language : Bahasa Melayu
 title: 'Pek Pendidikan Percuma Jetbrains Untuk Pelajar Kolej'
 description: Sebagai pelajar anda sebenarnya bukan sahaja mempunyai masa dan tenaga untuk menimba ilmu malah peluang percuma untuk mendapatkan pelbagai sumber di dalam dan di luar kolej untuk menambah ilmu, kemahiran dan pengalaman anda terutamanya melalui pek pendidikan percuma yang ditawarkan Jetbrains ini. Apa itu Jetbrains dan pek pendidikan percuma ini?
 author: AreRex14
-date:   2018-07-16
+date:   2018-07-18
 categories: general
 ---
 
@@ -28,11 +28,17 @@ Isikan maklumat anda seperti mana gambar di bawah dan klik _Apply_.
 
 ![Mohon JetBrains](/assets/img/apply-jetbrains-student.png)
 
+### 2. Sahkan emel anda
+
 Seterusnya, anda akan diarahkan ke halaman lain yang memberitahu untuk mengesahkan emel anda. Teruskan ke emel anda dan akan lihat ada satu emel seperti di bawah. Klik pautan tersebut untuk mengesahkan emel anda.
 
 ![Sahkan emel](/assets/img/receive-email-1.png)
 
+### 3. Tetapkan nama pengguna dan kata laluan
+
 Anda akan diarahkan ke halaman yang menunjukkan bahawa emel anda telah disahkan dan seterusnya meminta anda menetapkan nama pengguna dan kata laluan untuk akaun Jetbrains. 
+
+### 4. Aktifkan lesen Jetbrains
 
 ![Emel pengaktifan lesen Jetbrains](/assets/img/receive-email-2.png)
 
