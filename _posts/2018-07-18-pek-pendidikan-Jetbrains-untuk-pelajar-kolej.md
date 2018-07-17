@@ -18,7 +18,7 @@ JetBrains s.r.o. adalah syarikat pembangunan perisian popular dan pencipta Java 
 
 ## Apa saja yang ditawarkan Jetbrains? 
 
-![Produk-produk Jetbrains](/assets/img/jetbrains-product-pack.png)
+![Produk-produk Jetbrains](/assets/img/jetbrains-product-pack.PNG)
 
 Produk-produk di atas adalah antara alatan popular yang digunakan profesional di luar sana tetapi anda boleh menggunakannya secara percuma melalui perolehan lesen penggunaan sebagai pelajar. Pembangunanan .NET,Java, pangkalan data atau web, semuanya lengkap di sini. Anda dah tahu produk-produknya jadi bagaimana nak dapatkannya? Haa...Senang saja, anda mestilah seorang pelajar semasa dan anda mempunyai emel pelajar. Jika anda masih belum mengaktifkan emel pelajar, aktifkan [emel pelajar](http://fstm.kuis.edu.my/blog/akaun-emel-pelajar/) anda sebelum ke langkah seterusnya.
 
@@ -26,13 +26,13 @@ Produk-produk di atas adalah antara alatan popular yang digunakan profesional di
 
 Isikan maklumat anda seperti mana gambar di bawah dan klik _Apply_.
 
-![Mohon JetBrains](/assets/img/apply-jetbrains-student.png)
+![Mohon JetBrains](/assets/img/apply-jetbrains-student.PNG)
 
 ### 2. Sahkan emel anda
 
 Seterusnya, anda akan diarahkan ke halaman lain yang memberitahu untuk mengesahkan emel anda. Teruskan ke emel anda dan akan lihat ada satu emel seperti di bawah. Klik pautan tersebut untuk mengesahkan emel anda.
 
-![Sahkan emel](/assets/img/receive-email-1.png)
+![Sahkan emel](/assets/img/receive-email-1.PNG)
 
 ### 3. Tetapkan nama pengguna dan kata laluan
 
@@ -40,11 +40,11 @@ Anda akan diarahkan ke halaman yang menunjukkan bahawa emel anda telah disahkan 
 
 ### 4. Aktifkan lesen Jetbrains
 
-![Emel pengaktifan lesen Jetbrains](/assets/img/receive-email-2.png)
+![Emel pengaktifan lesen Jetbrains](/assets/img/receive-email-2.PNG)
 
 Kemudian, periksa sekali lagi emel anda dan akan menerima satu lagi pautan untuk mengaktifkan lesen Jetbrains anda. Setelah itu, baru anda akan dipaparkan satu halaman yang menunjukkan maklumat lesen dan produk-produk Jetbrains yang anda boleh muat turun pada bila-bila masa sahaja.
 
-![Lesen dan produk Jetbrains](/assets/img/jetbrains-license.png)
+![Lesen dan produk Jetbrains](/assets/img/jetbrains-license.PNG)
 
 Anda boleh log masuk ke akaun Jetbrains anda pada bila-bila masa untuk memuat-turun produk-produk tersebut atau sekadar ingin melihat semula [maklumat lesen Jetbrains](https://account.jetbrains.com/licenses) anda. Anda boleh memuat-turun produk-produk tersebut terus daripada halaman tersebut atau melalui [Toolbox App](https://www.jetbrains.com/toolbox/app/), sebuah alat untuk menguruskan kemaskini, versi alatan dan projek-projek anda.
 
