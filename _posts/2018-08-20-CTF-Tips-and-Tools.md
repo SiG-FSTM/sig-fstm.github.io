@@ -1,0 +1,161 @@
+There is a lot of tools used by us (KUIS-team) at CTF Competitions. So, it takes time to build up collection of tools an tips used in ctf and remember them all. This repo helps to keep all these scattered tools and tips at one place.
+
+# ELF file or PE file -> reversing/pwn
+
+  * Execute the binary first, know the flow of the program.
+  * Play with static analysis first (IDA Pro) then go to dynamic (gdb-peda).
+  * When do analysis static or dynamic focus on strcmp. function call, conditional jump
+  * file (command)
+  * strings (command).
+  * ltrace (command)(library function).
+  * strace (command)(system and signal function).
+  * nm (command).
+  * Use DIE software to do alternative analysis.
+  * Use HxD software to check the header.
+  * IDA pro. (Static Analysis)
+  * objdump (Static Analysis)
+  * GDB debugger. (Dynamic Analysis) = ELF Linux 
+  * Immunity Debugger. / x64dbg (Dyanamic Analysis) = PE (EXE, DLL)
+  * ApkTool software for R.E android.
+  * Scan the binary on virustotal.com to know something malicious.
+  * [readelf -a (all) atau pun -h (file header)] = will displays information about ELF files.
+  * cppcheck (command) = It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs. 
+  * PEView
+  * InnoBF
+  * unpacker
+  * dnSpy is powerful for dotnet. Edit -> compile -> save all
+  * to recognize it is a .net is by analysis use pebear "mscoree.dll"
+  * Analyse the source code.
+  * overflow exploitation
+  * use pwntools
+  * strings
+  * gdb
+  * python script
+
+
+
+
+# Web link -> Web Exploit
+  * View Page Source.
+  * Inspect Element tools.
+  * Sql Injection. (method)
+  * XSS. (method)
+  * File traversing.
+  * Burpsuite. tools pentetration
+  * SQLMap. tools
+  * Cookies.
+  * User Agent.
+  * Tamper data
+  * URL Injection
+  * URL trick
+  * Shell upload in file uploader. https://github.com/b374k/b374k
+  * LFI.
+  * RFI.
+  * /opt/dirb ./dirb for file traversing
+  * robots.txt
+  * looking for script injection in overthewire
+  * Save page as to look to full code of JS.
+  * WPScan 
+  * DirBuster
+  * password[]
+  * index.php
+  * .htaccess
+  * ../
+  * index.php.bak
+  * console.log(function) at inspect element 
+  * try execute some Linux/Windows command at textbox
+
+
+# Image/Music/Zip files/ Other Files -> Stegano / Forensics
+* file command first.
+* cat command and grep command.
+* strings [-el for little endian] and grep command.
+* Analysis header using HxD.
+* fix the header
+* file carving. 
+* hxd. 
+* photoshop.
+* rename image file to rar / zip
+* Zoom in and Zoom out
+* TinEye
+* imagemagick 
+* sng (command) is compiler/decompiler for Scriptable Network Graphics
+* unzip (command)
+* zipdetails *v (command)
+* zipinfo (command)
+* zip -F input.zip -out output.zip and zip -FF input.zip -out output.zip attempt to repair a corrupted zip file. (command)
+* Stegslove [java -jar Stegsolve.jar] (command)
+* binwalk (command). [-e for extract. -z for carve data from files.]
+* foremost (command). 
+* steghide (command). [steghide -extract -sf] with password
+* pngcheck (command) for PNGs to check for any corruption.
+* pngtools (command)
+* exiftool (command). 
+* zsteg (command)
+* Audacity (Music)
+* Sonic Visualizer (Music)
+* Spamimic (text)
+* Deepsound(Music)
+* stegcracker 
+* stegdetect
+* StegSpy software.
+
+# Digital Forensics
+* Common locations for various artifacts
+* Web: browsing history, cookies, cache files, ...
+* Windows OS: registry table, event logs, ...
+* Linux: configuration files, log files, ...
+* Mobile phones: app data
+
+# Jumbled text -> Crypto
+* Google
+* online tools
+* factordb.com for rsa
+* double or more decryption.
+* https://crackstation.net/
+* rsactftool
+
+# Pcap files -> Packet Analysis
+* strings command the pcap!!
+* Wireshark 
+follow tcp streams
+export data
+expert info
+filter
+osi layer
+find by string
+conversation
+* NetworkMiner
+* https://www.packettotal.com/
+* aircrack-ng <pcap> -w <wordlist>
+* airdecap-ng -p <password> <pcap>
+* netcat
+* open the server ip in web browser
+
+# Memory dump -> Forensics
+* Volatility 
+
+# Trivia.
+* Google is your friend.
+* source code of the ctf platform
+
+# Bruteforce
+* fcrackzip brute*force guesses a zip password (for passwords <7 characters or so). (command)
+* stegcracker <file> [<wordlist>]
+
+# Programming
+* when it comes for programming just google the reference. Try to understand the flow.
+
+# Other CTF tools and tips Repo / Website links
+* http://g33kinfo.com/info/archives/6261
+* https://github.com/apsdehal/awesome-ctf#crypto
+* https://resources.infosecinstitute.com/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/
+* http://ctfwriteups.blogspot.com/2013/12/basic-tips-on-hacking-challenges-in.html
+* https://github.com/zardus/ctf-tools
+* https://github.com/MrMugiwara/CTF-Tools
+* https://github.com/SandySekharan/CTF-tool
+* https://www.quora.com/What-are-your-top-5-must-have-tools-for-a-hacking-challenge-or-CTF
+* https://www.digitalmunition.me/2016/03/ctf-tools-setup-scripts-security-research-tools/
+* https://ctfs.github.io/resources/topics/steganography/invisible-text/README.html
+* https://libraries.io/github/any-how/CTF-TOOLS
+* https://pequalsnp-team.github.io/cheatsheet/steganography-101
