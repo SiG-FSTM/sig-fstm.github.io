@@ -35,67 +35,66 @@ There is a lot of tools used by us (KUIS-team) during CTF Competitions. So, it t
 # Web link -> Web Exploitation
   * View Page Source.
   * Inspect Element tools.
-  * Sql Injection. (method)
-  * XSS. (method)
-  * File traversing. (method)
-  * Burpsuite. tools pentetration
-  * SQLMap. tools
+  * Sql Injection. (method).
+  * XSS. (method).
+  * File traversing. (method).
+  * **Burpsuite** tools for penetration testing.
+  * **SQLMap** tools.
   * Cookies.
   * User Agent.
-  * Tamper data
-  * URL Injection. (method)
-  * URL trick. (method)
-  * Shell upload in file uploader. https://github.com/b374k/b374k
-  * LFI. (method)
-  * RFI. (method)
+  * Tamper data.
+  * URL Injection. (method).
+  * URL trick. (method).
+  * Shell upload in file uploader. https://github.com/b374k/b374k.
+  * LFI. (method).
+  * RFI. (method).
   * `dirb` tools.
   * look for robots.txt
-  * looking for script injection in overthewire
   * Save page as to look to full code of JS.
-  * WPScan 
-  * DirBuster tools
+  * **WPScan** .
+  * **DirBuster** tools.
   * password[]
   * index.php
   * .htaccess
   * ../
   * index.php.bak
-  * console.log(function) at inspect element 
-  * try execute some Linux/Windows command at textbox
+  * console.log(function) at inspect element.
+  * try execute some Linux/Windows command at textbox.
 
 
 # Image/Music/Zip files/ Other Files -> Stegano / Forensics
 * `file` command first.
 * `cat` command and `grep` command.
 * `strings -el` for little endian and `grep` command.
-* Analysis header using HxD.
-* fix the header
+* Analysis header using **HxD**.
+* fix the header.
 * file carving. 
-* hxd. 
-* photoshop.
-* rename image file to rar / zip
-* Zoom in and Zoom out
-* TinEye
-* imagemagick 
-* `sng` command is compiler/decompiler for Scriptable Network Graphics
+* **hxd**. 
+* **photoshop**.
+* rename image file to rar / zip.
+* Zoom in and Zoom out the image.
+* **TinEye**.
+* `imagemagick`.
+* `sng` command is compiler/decompiler for Scriptable Network Graphics.
 * `unzip` command.
 * `zipdetails -v` command.
 * `zipinfo` command.
 * `zip -F input.zip -out output.zip` and `zip -FF input.zip -out output.zip` attempt to repair a corrupted zip file.
-* Stegslove [java -jar Stegsolve.jar] (command)
-* `binwalk` [-e for extract. -z for carve data from files.]
+* `Stegslove` [java -jar Stegsolve.jar] (command).
+* `binwalk` [-e for extract. -z for carve data from files.].
 * `foremost` command. 
-* `steghide` command. [steghide -extract -sf] with password
+* `steghide` command. [steghide -extract -sf] with password.
 * `pngcheck` command. for PNGs to check for any corruption.
 * `pngtools` command.
 * `exiftool` command. 
 * `zsteg` command.
-* Audacity (Music)
-* Sonic Visualizer (Music)
-* Spamimic (text)
-* Deepsound(Music)
-* stegcracker 
-* stegdetect
-* StegSpy software.
+* **Audacity** (Music).
+* **Sonic Visualizer** (Music).
+* **Spamimic** (text).
+* **Deepsound** (Music).
+* `stegcracker`.
+* **stegdetect**.
+* **StegSpy**.
 
 # Digital Forensics
 * Common locations for various artifacts
@@ -105,16 +104,16 @@ There is a lot of tools used by us (KUIS-team) during CTF Competitions. So, it t
 * Mobile phones: app data
 
 # Jumbled text -> Crypto
-* Google
-* Look for online tools
-* factordb.com for rsa
+* Google.
+* Look for online tools.
+* factordb.com for rsa.
 * double or more decryption.
-* https://crackstation.net/
-* rsactftool
+* https://crackstation.net/.
+* rsactftool.
 
 # Pcap files -> Packet Analysis
-* strings command the pcap!!
-* Wireshark 
+* `strings` command the pcap!!
+* **Wireshark**
 follow tcp streams
 export data
 expert info
@@ -122,7 +121,7 @@ filter
 osi layer
 find by string
 conversation
-* NetworkMiner
+* **NetworkMiner**
 * https://www.packettotal.com/
 * `aircrack-ng <pcap> -w <wordlist>`
 * `airdecap-ng -p <password> <pcap>`
@@ -133,7 +132,7 @@ conversation
 * `Volatility`
 
 # Trivia.
-* Google is your friend.
+* **Google** is your friend using Google quote tricks or other google tricks.
 * source code of the ctf platform
 
 # Bruteforce
