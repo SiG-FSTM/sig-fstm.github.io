@@ -1,62 +1,59 @@
-There is a lot of tools used by us (KUIS-team) at CTF Competitions. So, it takes time to build up collection of tools an tips used in ctf and remember them all. This repo helps to keep all these scattered tools and tips at one place.
+There is a lot of tools used by us (KUIS-team) during CTF Competitions. So, it takes time to build up collection of tools an tips used in ctf and remember them all. This repo helps to keep all these scattered tools and tips at one place.
 
-# ELF file or PE file -> reversing/pwn
+# ELF file or PE file -> Reverse Engineering or Pwn
 
   * Execute the binary first, know the flow of the program.
-  * Play with static analysis first (IDA Pro) then go to dynamic (gdb-peda).
-  * When do analysis static or dynamic focus on strcmp. function call, conditional jump
-  * file (command)
-  * strings (command).
-  * ltrace (command)(library function).
-  * strace (command)(system and signal function).
-  * nm (command).
-  * Use DIE software to do alternative analysis.
-  * Use HxD software to check the header.
-  * IDA pro. (Static Analysis)
-  * objdump (Static Analysis)
-  * GDB debugger. (Dynamic Analysis) = ELF Linux 
-  * Immunity Debugger. / x64dbg (Dyanamic Analysis) = PE (EXE, DLL)
-  * ApkTool software for R.E android.
+  * Play with static analysis first (maybe using IDA Pro) then go to dynamic (maybe you can use gdb-peda). For details, visit this site https://malwaretips.com/threads/difference-between-static-and-dynamic-malware-analysis.44258/
+  * When do analysis static or dynamic focus on strcmp. function call, conditional jump.
+  * `file` command.
+  * `strings` command.
+  * `ltrace` command for analysis library function.
+  * `strace` command for analysis system and signal function.
+  * `nm` command.
+  * `readelf -a (all) atau pun -h (file header)` = will displays information about ELF files.
+  * `cppcheck` command. It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs.
+  * Use **DIE**, **PEBear** and other tools to do static analysis about information of the PE file.
+  * Use **HxD** software to check the header.
+  * **IDA pro**, **Binary Ninja**, **Hopper** for Static Analysis.
+  * `gdb` (GDB Debugger), a cli tools for dynamic Analysis on ELF Linux file format
+  * **Immunity Debugger** or **x64dbg** for Dyanamic Analysis on PE file (EXE, DLL).
+  * `ApkTool` for R.E android.
   * Scan the binary on virustotal.com to know something malicious.
-  * [readelf -a (all) atau pun -h (file header)] = will displays information about ELF files.
-  * cppcheck (command) = It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and dangerous coding constructs. 
-  * PEView
-  * InnoBF
-  * unpacker
-  * dnSpy is powerful for dotnet. Edit -> compile -> save all
-  * to recognize it is a .net is by analysis use pebear "mscoree.dll"
-  * Analyse the source code.
-  * overflow exploitation
-  * use pwntools
-  * strings
-  * gdb
-  * python script
+  * **InnoBF**
+  * `UPX -d` to unpack packed binary
+  * **dnSpy** is powerful for RE .net binary. Edit -> compile -> save all. To recognize it is a .net binary, try analysis use pebear and if you found a "mscoree.dll", it's a .net binary.
+  * Analyse the source code (usually pwn categories gave us C source code).
+  * Do exploitation.
+  * use `pwntools`
+  * use `strings`
+  * use `gdb`
+  * Improve your python script skills
 
 
 
 
-# Web link -> Web Exploit
+# Web link -> Web Exploitation
   * View Page Source.
   * Inspect Element tools.
   * Sql Injection. (method)
   * XSS. (method)
-  * File traversing.
+  * File traversing. (method)
   * Burpsuite. tools pentetration
   * SQLMap. tools
   * Cookies.
   * User Agent.
   * Tamper data
-  * URL Injection
-  * URL trick
+  * URL Injection. (method)
+  * URL trick. (method)
   * Shell upload in file uploader. https://github.com/b374k/b374k
-  * LFI.
-  * RFI.
-  * /opt/dirb ./dirb for file traversing
-  * robots.txt
+  * LFI. (method)
+  * RFI. (method)
+  * `dirb` tools.
+  * look for robots.txt
   * looking for script injection in overthewire
   * Save page as to look to full code of JS.
   * WPScan 
-  * DirBuster
+  * DirBuster tools
   * password[]
   * index.php
   * .htaccess
@@ -67,9 +64,9 @@ There is a lot of tools used by us (KUIS-team) at CTF Competitions. So, it takes
 
 
 # Image/Music/Zip files/ Other Files -> Stegano / Forensics
-* file command first.
-* cat command and grep command.
-* strings [-el for little endian] and grep command.
+* `file` command first.
+* `cat` command and `grep` command.
+* `strings -el` for little endian and `grep` command.
 * Analysis header using HxD.
 * fix the header
 * file carving. 
@@ -79,19 +76,19 @@ There is a lot of tools used by us (KUIS-team) at CTF Competitions. So, it takes
 * Zoom in and Zoom out
 * TinEye
 * imagemagick 
-* sng (command) is compiler/decompiler for Scriptable Network Graphics
-* unzip (command)
-* zipdetails *v (command)
-* zipinfo (command)
-* zip -F input.zip -out output.zip and zip -FF input.zip -out output.zip attempt to repair a corrupted zip file. (command)
+* `sng` command is compiler/decompiler for Scriptable Network Graphics
+* `unzip` command.
+* `zipdetails -v` command.
+* `zipinfo` command.
+* `zip -F input.zip -out output.zip` and `zip -FF input.zip -out output.zip` attempt to repair a corrupted zip file.
 * Stegslove [java -jar Stegsolve.jar] (command)
-* binwalk (command). [-e for extract. -z for carve data from files.]
-* foremost (command). 
-* steghide (command). [steghide -extract -sf] with password
-* pngcheck (command) for PNGs to check for any corruption.
-* pngtools (command)
-* exiftool (command). 
-* zsteg (command)
+* `binwalk` [-e for extract. -z for carve data from files.]
+* `foremost` command. 
+* `steghide` command. [steghide -extract -sf] with password
+* `pngcheck` command. for PNGs to check for any corruption.
+* `pngtools` command.
+* `exiftool` command. 
+* `zsteg` command.
 * Audacity (Music)
 * Sonic Visualizer (Music)
 * Spamimic (text)
@@ -109,7 +106,7 @@ There is a lot of tools used by us (KUIS-team) at CTF Competitions. So, it takes
 
 # Jumbled text -> Crypto
 * Google
-* online tools
+* Look for online tools
 * factordb.com for rsa
 * double or more decryption.
 * https://crackstation.net/
@@ -127,21 +124,21 @@ find by string
 conversation
 * NetworkMiner
 * https://www.packettotal.com/
-* aircrack-ng <pcap> -w <wordlist>
-* airdecap-ng -p <password> <pcap>
-* netcat
+* `aircrack-ng <pcap> -w <wordlist>`
+* `airdecap-ng -p <password> <pcap>`
+* `netcat`
 * open the server ip in web browser
 
 # Memory dump -> Forensics
-* Volatility 
+* `Volatility`
 
 # Trivia.
 * Google is your friend.
 * source code of the ctf platform
 
 # Bruteforce
-* fcrackzip brute*force guesses a zip password (for passwords <7 characters or so). (command)
-* stegcracker <file> [<wordlist>]
+* `fcrackzip` brute-force guesses a zip password (for passwords <7 characters or so). (command)
+* `stegcracker <file> [<wordlist>]`
 
 # Programming
 * when it comes for programming just google the reference. Try to understand the flow.
