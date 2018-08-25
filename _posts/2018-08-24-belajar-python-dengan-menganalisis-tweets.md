@@ -2,7 +2,7 @@
 layout: post
 language : Bahasa Melayu
 title: 'Belajar Python dengan menganalisis tweet Tun Dr Mahathir'
-description: 
+description: Twitter sering menjadi tempat perbualan hangat netizen terhadap isu-isu yang melanda negara. Hanya dengan satu tweet kontroversi, ia boleh membawa seribu satu makna kepada hala tuju sebuah kepimpinan dan reaksi rakyatnya. Dalam posting kali ini, saya nak berkongsi tentang bahasa pengaturcaraan yang popular dan mudah untuk belajar iaitu Python dan cara yang seronok nak belajar adalah dengan kita menganalisis tweet daripada Twitter.
 author: AreRex14
 published: true
 date:   2018-08-24
