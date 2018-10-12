@@ -27,6 +27,6 @@ Ingat ini:
 - Kuantiti itu seronok tetapi kualiti lebih penting
 - Tindakan jangka pendek, impak jangka panjang
 
-Untuk maklumat lebih lanjut, sila ke [link](https://hacktoberfest.digitalocean.com/details) dan [link](https://hacktoberfest.digitalocean.com/faq)
+Untuk maklumat lebih lanjut, sila ke [https://hacktoberfest.digitalocean.com/details](https://hacktoberfest.digitalocean.com/details) dan [https://hacktoberfest.digitalocean.com/faq](https://hacktoberfest.digitalocean.com/faq)
 
 **Hacktoberfest Kami Datang!!!** 
